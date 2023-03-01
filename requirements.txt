@@ -1,0 +1,7 @@
+opencv-python
+qrcode
+urllib3
+Pillow
+ensure
+pymongo
+-e .
