@@ -1,6 +1,7 @@
 import os
 from util.internetWorking import connect
 import pymongo
+from pymongo.errors import ConnectionFailure
 from exception import custonException
 from ensure import ensure_annotations
 from logger import logger
@@ -16,7 +17,7 @@ def connectToDatabase()->pymongo.collection.Collection:
         online = False
         if connect():
             # MONGODB_URL = os.getenv("MONGODB_URL")
-            MONGODB_URL = "mongodb+srv://vaasu:pcvaasu9dps@cluster0.wydi0u7.mongodb.net/13digital?retryWrites=true&w=majority"
+            MONGODB_URL = "mongodb+srv://vaasu:***********@cluster0.wydi0u7.mongodb.net/13digital?retryWrites=true&w=majority"
             online = True
         else:
             MONGODB_URL = "mongodb://localhost:27017/"
@@ -38,9 +39,8 @@ def connectToDatabase()->pymongo.collection.Collection:
         logger.info(f"Collection {COLLECTION_NAME} found in database {DATABASE_NAME}")
 
         if collection is not None:
+            collection.create_index('regNo', unique=True)
             return collection
         
     except:
         logger.info("Failed to connect to database")
-
-connectToDatabase()
