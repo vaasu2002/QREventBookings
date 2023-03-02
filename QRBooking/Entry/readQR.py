@@ -1,4 +1,5 @@
 import cv2
+from QRBooking.Entry.verifyEntry import verifyEntry
 vid = cv2.VideoCapture(0)
 detector = cv2.QRCodeDetector()
 import time
@@ -22,4 +23,8 @@ def qr_code_reader():
 my_generator = qr_code_reader()
 
 for data in my_generator:
-    print(data)
+    print(type(data))
+    verifyEntry(data)
+
+
+    # QRBooking\Entry\readQR.py

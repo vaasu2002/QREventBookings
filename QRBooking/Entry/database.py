@@ -24,19 +24,19 @@ def connectToDatabase()->pymongo.collection.Collection:
         
         client = pymongo.MongoClient(MONGODB_URL)
         collection = None
-        # logger.info(f"Connected to database. Online: {online}")
+        print(f"Connected to database. Online: {online}")
 
         if COLLECTION_NAME in client[DATABASE_NAME].list_collection_names():
                 collection = client[DATABASE_NAME][COLLECTION_NAME]        
             
         else:
             print("Collection does not exist")
-            return None
+
             # raise custonException(
             #         f"Collection object is None. Check if the collection {COLLECTION_NAME} exists in the database {DATABASE_NAME}"
             #     )
 
-        # logger.info(f"Collection {COLLECTION_NAME} found in database {DATABASE_NAME}")
+        print(f"Collection {COLLECTION_NAME} found in database {DATABASE_NAME}")
 
         if collection is not None:
             collection.create_index('regNo', unique=True)

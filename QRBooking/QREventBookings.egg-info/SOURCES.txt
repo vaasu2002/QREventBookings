@@ -1,5 +1,9 @@
 README.md
 setup.py
+QRBooking/Entry/__init__.py
+QRBooking/Entry/database.py
+QRBooking/Entry/readQR.py
+QRBooking/Entry/verifyEntry.py
 QRBooking/QREventBookings.egg-info/PKG-INFO
 QRBooking/QREventBookings.egg-info/SOURCES.txt
 QRBooking/QREventBookings.egg-info/dependency_links.txt

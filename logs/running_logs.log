@@ -34,3 +34,48 @@
 [2023-03-02 07:46:36,184: INFO: database]: Collection Test1 found in database QREventBooking
 [2023-03-02 08:02:09,340: INFO: database]: Connected to database. Online: True
 [2023-03-02 08:02:10,312: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 08:12:17,703: INFO: database]: Connected to database. Online: True
+[2023-03-02 08:12:18,469: INFO: database]: Failed to connect to database
+[2023-03-02 08:12:49,810: INFO: database]: Failed to connect to database
+[2023-03-02 08:13:02,084: INFO: database]: Connected to database. Online: True
+[2023-03-02 08:13:02,534: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 09:24:42,036: INFO: database]: Connected to database. Online: True
+[2023-03-02 09:24:44,391: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 09:38:54,846: INFO: database]: Connected to database. Online: True
+[2023-03-02 09:38:55,719: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 09:58:59,218: INFO: database]: Connected to database. Online: True
+[2023-03-02 09:58:59,721: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 09:59:10,212: INFO: database]: Connected to database. Online: True
+[2023-03-02 09:59:10,658: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:00:52,524: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:00:53,042: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:01:05,260: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:01:05,725: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:02:11,874: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:02:12,480: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:02:22,968: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:02:23,771: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:03:23,105: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:03:23,665: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:03:33,578: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:03:34,026: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:06:06,479: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:06:07,333: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:06:18,081: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:06:18,530: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:08:05,087: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:08:05,610: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:08:15,798: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:08:16,351: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:08:47,997: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:08:48,731: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:08:59,116: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:09:04,004: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:10:18,141: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:10:19,023: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:10:31,655: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:10:32,073: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:11:56,998: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:11:57,542: INFO: database]: Collection Test1 found in database QREventBooking
+[2023-03-02 10:12:08,298: INFO: database]: Connected to database. Online: True
+[2023-03-02 10:12:08,778: INFO: database]: Collection Test1 found in database QREventBooking
