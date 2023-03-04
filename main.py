@@ -1,8 +1,8 @@
 from QRBooking.addingAttendies import addingAttendee
 
-name = "Vansh Duggar"
-email = "vansh.duggar2021@gmail.com"
-regNo = "21MIM100399"
-gender = "female"
+name = "ANand lODDU"
+email = "ANand.lODDU@gmail.com"
+regNo = "21MIM10010"
+gender = "male"
 
 addingAttendee(name,email,regNo,gender)
